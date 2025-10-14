@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 
 
 
-> Step 3. Add this file frovide in AndroidManifest.xml
+> Step 3. Add this file provide in AndroidManifest.xml
 
 ```
   <provider
@@ -59,7 +59,6 @@ dependencyResolutionManagement {
     <external-files-path
         name="external_files"
         path="." />
-```
 
     <!-- External cache directory -->
     <external-cache-path
@@ -67,3 +66,4 @@ dependencyResolutionManagement {
         path="." />
 </paths>
 
+```
