@@ -26,6 +26,6 @@ dependencyResolutionManagement {
 
 ```
   dependencies {
-                 implementation 'coeriteshraj:Easy-Image-Picker:1.0.1'
+                implementation 'com.github.callmeriteshraj:Easy-Image-Picker:1.0.1'
                }
 ```
