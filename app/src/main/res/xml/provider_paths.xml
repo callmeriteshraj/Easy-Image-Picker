@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Cache directory for temporary images -->
+    <cache-path
+        name="cache"
+        path="." />
+
+    <!-- App-specific files directory -->
+    <files-path
+        name="files"
+        path="." />
+
+    <!-- External storage app-specific directory -->
+    <external-files-path
+        name="external_files"
+        path="." />
+
+    <!-- External cache directory -->
+    <external-cache-path
+        name="external_cache"
+        path="." />
+</paths>
