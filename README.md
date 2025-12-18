@@ -33,7 +33,7 @@
             }
         }
     }
-````
+
 			
 
 
@@ -41,6 +41,8 @@
 
 
 > Step 1. Add the Jitpack  repository in your build.gradle(app level)
+
+
 ```
 dependencyResolutionManagement {
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
