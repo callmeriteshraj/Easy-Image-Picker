@@ -1,6 +1,44 @@
 # Easy Image Picker
 
 
+> How to access in any activity or fragment
+```
+
+
+   class MainActivity : AppCompatActivity() {
+
+    private lateinit var mediaPickerManager: MediaPickerManager
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        mediaPickerManager = MediaPickerManager(this, this)
+    }
+```
+
+```
+    private fun openGallery() {
+        mediaPickerManager.openGallery { uri ->
+            uri?.let {
+                // use uri
+            }
+        }
+    }
+```
+    private fun openCamera() {
+        mediaPickerManager.openCamera { uri ->
+            uri?.let {
+                // use uri
+            }
+        }
+    }
+````
+			
+
+
+
+
 
 > Step 1. Add the Jitpack  repository in your build.gradle(app level)
 ```
